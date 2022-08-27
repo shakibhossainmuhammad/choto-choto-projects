@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 1px 2px #f5f0f0;
+  padding: 10px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  font-weight: 700;
+}
+
+#logo {
+  margin-left: 300px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+}
+
+section .item-name ul {
+  list-style: none;
+  margin-right: 300px;
+}
+
+section .item-name ul li {
+  position: relative;
+  float: left;
+}
+
+section .item-name ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 20px;
+  color: #070101;
+  display: block;
+}
+
+section .item-name ul li a:hover {
+  color: #72a8fe;
+}
+
+section .item-name ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background-color: #f5f2f2;
+  display: none;
+}
+
+section .item-name ul li ul li {
+  width: 100%;
+  border-top: 1px solid #fff;
+}
+
+section .item-name ul li ul li ul {
+  left: 200px;
+  top: 0;
+}
+section .item-name ul li:focus-within > ul,
+section .item-name ul li:hover > ul {
+  display: initial;
+}
+
+#menu-bar {
+  display: none;
+}
+
+section label {
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 991px) {
+  section {
+    padding: 20px;
+  }
+
+  section label {
+    display: initial;
+  }
+
+  section .item-name {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border-top: 1px solid rgb(252, 248, 248);
+    display: none;
+  }
+
+  section .item-name ul li {
+    width: 100%;
+  }
+
+  section .item-name ul li ul {
+    position: relative;
+    width: 100%;
+  }
+
+  section .item-name ul li ul li {
+    background: #ffffff;
+  }
+
+  section .item-name ul li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+
+  #menu-bar:checked ~ .item-name {
+    display: initial;
+  }
+}
