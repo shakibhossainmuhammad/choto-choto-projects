@@ -1,0 +1,85 @@
+body{
+    /* background-color: bisque; */
+    /* background-image: linear-gradient(to right, #6161db , #db4646); */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.longin-system{
+    background-color: blueviolet;
+    text-align: center;
+
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 0px;
+}
+
+.user span{
+    background-color: #ece3e3;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+}
+
+.user span svg{
+    width: 20px;
+    height: 20px;
+    fill: #000;
+
+}
+
+.user input{
+    text-align: center;
+    padding: 5px;
+    background-color: #ece3e3;
+    outline: none;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+.pass{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 0px;
+}
+
+.pass span{
+    background-color: #ece3e3;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+
+}
+.pass span svg{
+    width: 20px;
+    height: 15px;
+    fill: #000;
+
+}
+
+.pass input{
+    text-align: center;
+    padding: 5px;
+    background-color: #ece3e3;
+    outline: none;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.head h2{
+   padding: 20px;
+   font-size: 30px;
+}
+
+.btn button{
+    background-color: rgb(218, 76, 76);
+    width: 200px;
+    padding: 5px 0;
+    border: none;
+    border-radius: 5px;
+
+}
