@@ -1,0 +1,31 @@
+
+
+ .container{ 
+    
+} 
+section {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    /* grid-template-columns: 200px 100px 200px; */
+    grid-gap: 4px;
+    justify-content: center;
+}
+
+
+
+#bg-img img{
+    /* display: flex; */
+    border: 1px solid green;
+    width: 200px;
+
+}
+#icons img{
+    width: 20px;
+}
+
+section h3:hover{
+    color: #db3838;
+}
+section h2{
+    color: red;
+}
