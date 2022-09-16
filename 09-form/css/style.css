@@ -1,0 +1,18 @@
+span {
+  color: red;
+}
+.container {
+  margin: 50px auto;
+  max-width: 20%;
+}
+
+.div-exm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-exm {
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+}

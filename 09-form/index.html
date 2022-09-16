@@ -6,11 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        span {
-            color: red;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -20,50 +16,56 @@
                 <label for="name">Name<span>*</span></label>
                 <input type="text">
             </div><br>
-            <div>
+            <div class="div-exm">
                 <label for="address">Address<span>*</span></label>
                 <input type="text">
             </div><br>
-            <div>
+            <div class="div-exm">
                 <label for="zip-code">Zip Code<span>*</span></label>
                 <input type="text">
             </div><br>
-            <div>
+            <div class="div-exm">
                 <label for="department">Department<span>*</span></label>
                 <input list="browsers" placeholder="Please select...">
                 <datalist id="browsers">
-                    <option value="Internet Explorer">
-                    <option value="Firefox">
-                    <option value="Chrome">
-                    <option value="Opera">
-                    <option value="Safari">
+                    <option value="Bangaldesh">
+                    <option value="Afghanistan">
+                    <option value="Albania">
+                    <option value="Algeria">
+                    <option value="Andorra">
                 </datalist>
 
             </div>
-            <div>
+            <div class="div-exm">
                 <label for="gender">Gender<span>*</span></label>
-                <input type="radio" name="gender" id="gender" value="male"> Male
-                <input type="radio" name="gender" id="gender" value="female"> Female
+                <div>
+                    <input type="radio" name="gender" id="gender" value="male"> Male
+                    <input type="radio" name="gender" id="gender" value="female"> Female
+                </div>
+
             </div><br />
-            <div>
+            <div class="div-exm">
                 <label for="religion">Preferences<span>*</span></label>
-                <input type="checkbox" name="c1" id="red" value="islam"> Red
-                <input type="checkbox" name="c1" id="red" value="green"> Green
-                <input type="checkbox" name="c1" id="red" value="blue"> Blue
+                <div>
+                    <input type="checkbox" name="c1" id="red" value="red"> Red
+                    <input type="checkbox" name="c1" id="green" value="green"> Green
+                    <input type="checkbox" name="c1" id="blue" value="blue"> Blue
+                </div>
+
             </div><br />
-            <div>
+            <div class="div-exm">
                 <label for="phone">Phone<span>*</span></label>
                 <input type="text">
             </div><br>
-            <div>
+            <div class="div-exm">
                 <label for="email">Email<span>*</span></label>
                 <input type="emil">
             </div><br>
-            <div>
+            <div class="div-exm">
                 <label for="password">Password<span>*</span></label>
                 <input type="password">
             </div><br>
-            <div>
+            <div class="submit-exm">
                 <input type="submit" value="Send">
                 <input type="reset" value="Clear">
             </div>
